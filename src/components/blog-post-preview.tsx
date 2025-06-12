@@ -12,7 +12,7 @@ interface BlogPostPreviewProps {
 
 export function BlogPostPreview({ post }: BlogPostPreviewProps) {
   return (
-    <Card className="flex flex-col overflow-hidden h-full transition-all duration-300 ease-in-out hover:shadow-xl animate-scale-up-hover">
+    <Card className="flex flex-col overflow-hidden h-full transition-all duration-300 ease-in-out hover:shadow-xl hover:scale-[1.02] animate-initial-scale-up">
       {post.imageUrl && (
         <div className="relative w-full h-48 sm:h-56">
           <Image

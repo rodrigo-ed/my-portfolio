@@ -8,7 +8,7 @@ interface SkillDisplayProps {
 
 export function SkillDisplay({ skill }: SkillDisplayProps) {
   return (
-    <Card className="transition-shadow hover:shadow-lg">
+    <Card className="transition-all duration-300 hover:shadow-lg hover:scale-105">
       <CardHeader className="pb-2">
         <div className="flex items-center justify-between">
           <CardTitle className="text-lg font-headline flex items-center">
