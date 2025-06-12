@@ -11,7 +11,7 @@ export default {
     extend: {
       fontFamily: {
         body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
+        headline: ['"Space Grotesk"', 'sans-serif'], // Ensure quotes for multi-word font names
         code: ['monospace'],
       },
       colors: {
@@ -88,10 +88,20 @@ export default {
             height: '0',
           },
         },
+        fadeIn: {
+          from: { opacity: '0', transform: 'translateY(10px)' },
+          to: { opacity: '1', transform: 'translateY(0px)' },
+        },
+        scaleUp: {
+          from: { transform: 'scale(0.95)', opacity: '0.8' },
+          to: { transform: 'scale(1)', opacity: '1' },
+        }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'fade-in': 'fadeIn 0.5s ease-out forwards',
+        'scale-up-hover': 'scaleUp 0.2s ease-out forwards',
       },
     },
   },
