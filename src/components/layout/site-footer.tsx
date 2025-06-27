@@ -3,10 +3,7 @@ export function SiteFooter() {
     <footer className="py-6 md:px-8 md:py-0 border-t">
       <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
         <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-          &copy; {new Date().getFullYear()} Code Canvas. All rights reserved.
-        </p>
-        <p className="text-center text-sm leading-loose text-muted-foreground md:text-right">
-          Built with Next.js and Tailwind CSS.
+          &copy; {new Date().getFullYear()} Rodrigo Eduardo. Todos os direitos reservados.
         </p>
       </div>
     </footer>
