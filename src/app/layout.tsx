@@ -17,7 +17,7 @@ const fontSpaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Code Canvas - Portfolio',
+  title: 'Rodrigo - Portfolio',
   description: 'A personal portfolio website showcasing projects, skills, and blog.',
 };
 

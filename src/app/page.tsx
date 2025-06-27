@@ -28,7 +28,7 @@ export default function Home() {
           className="text-4xl sm:text-5xl md:text-6xl font-headline font-bold mb-4 animate-slide-in-up-subtle"
           style={{ animationDelay: '0.2s' }}
         >
-          Welcome to Code Canvas
+          Bem-vindos ao meu portfólio!
         </h1>
         <p 
           className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-slide-in-up-subtle"
@@ -103,7 +103,7 @@ export default function Home() {
             </li>
           </ul>
           <Button asChild variant="link" className="text-accent p-0 text-lg">
-            <Link href="/about">Learn More About Me <ArrowRight className="ml-2 h-5 w-5" /></Link>
+            <Link href="/about">Leia mais sobre mim <ArrowRight className="ml-2 h-5 w-5" /></Link>
           </Button>
         </div>
       </section>
